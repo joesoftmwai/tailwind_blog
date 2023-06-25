@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tailwind Blog</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins text-gray-600">
+    <!-- Header starts here -->
+    <nav class="bg-slate-300 shadow-sm shadow-slate-300">
+        <div class="container mx-auto px-4 py-3 flex items-center">
+             <a href="#">
+                <img src="./images/easyshop.png" alt="Company Logo">
+             </a>
+             <div class="ml-12 flex">
+                <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    Home
+                </a>
+             </div>
+
+             <div class="ml-12 flex">
+                <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-file-alt"></i>
+                    </span>
+                    About
+                </a>
+             </div>
+             <div class="ml-12 flex">
+                <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                    Contact
+                </a>
+             </div>
+             <div class="relative ml-auto">
+                <span class="absolute left-3 text-sm top-2 text-gray-600">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" name="" id="" class="block w-full rounded-3xl pl-10 pr-2 py-2
+                focus:outline-none bg-gray-200 text-sm text-gray-600 shadow-sm shadow-slate-300" placeholder="Search...">
+             </div>
+             <div class="ml-5">
+                <a href="#" class="flex items-center font-semibold text-md text-gray-900 hover:text-blue-700 transition">
+                    <spam class="mr-2">
+                        <i class="far fa-user"></i>
+                    </span>
+                    Login/Register
+                </a>
+             </div>
+        </div>
+    </nav>
+    <!-- Header ends here -->
+
+    <div class="py-12 bg-gray-200">
+        <div class="container mx-auto px-4 flex">
+            
+            <div class="xl:w-9/12 lg:w-9/12 w-full mr-4">
+                 <!-- Main Post starts here -->
+                <div class=" bg-white shadow-sm shadow-white rounded-xl">
+                    <div class="flex justify-between px-3 py-4 rounded-xl">
+                        <h5 class="text-base uppercase font-semibold ">Business</h5>
+                        <a href="#" class="text-white py-1 px-3 rounded-xl text-sm bg-blue-500 border border-blue-500 hover:text-blue-500 hover:bg-transparent transition">
+                            See More
+                        </a>
+                    </div>
+
+                    <div class="rounded-sm overflow-hidden  shadow-sm">
+                        <a href="#" class="block overflow-hidden">
+                            <img src="./images/pic7.png" class="w-full h-96 object-cover transform hover:scale-110 transition duration-500" alt="Blog Banner">
+                        </a>
+                        <div class="p-4 pb-5">
+                            <a href="#">
+                                <h2 class="block text-2xl font-semibold text-gray-700 hover:text-blue-500 transition font-poppins">
+                                    Complete NodeJS Developer in 2023 (GraphQL, MongoDB, + more)
+                                </h2>
+                            </a>
+                            <p class="text-gray-500 text-sm mt-2">
+                                Learn from real NodeJS experts! Includes REALLY Advanced NodeJS. Express, GraphQL, REST, MongoDB, SQL, MERN + much more
+                            </p>
+                            <p  class="text-gray-500 text-sm bg-green-200 border border-green-700 mt-2 p-4">
+                                <span class="text-gray-500 text-xl mr-1">
+                                    <i class="fas fa-quote-left"></i>
+                                </span>
+                                Using the latest version of Node, this course is focused on efficiency and turning you into a Back End or Fullstack developer. Never spend time on confusing, out of date, incomplete tutorials anymore! Graduates of Andrei’s courses are now working at Google, Tesla, Amazon, Apple, IBM, JP Morgan, Facebook, + other top tech companies for a reason.
+                                <span class="text-gray-500 text-xl mr-1">
+                                    <i class="fas fa-quote-right"></i>
+                                </span>
+                            </p>
+                            <h5 class="text-md font-semibold text-gray-700 mt-2">
+                                What you will learn 
+                            </h5>
+                            <p class="text-gray-500 text-sm mt-2">
+                                ● Build enterprise level Node applications and deploy to the cloud (AWS)
+                            </p>
+                            <p class="text-gray-500 text-sm">
+                                ● Learn to build secure and performant, large scale applications like a senior backend developer
+                            </p>
+                            <p class="text-gray-500 text-sm">
+                                ● Lead NodeJS projects by making good architecture decisions and helping others on your team
+                            </p>
+                            <p class="text-gray-500 text-sm mt-2"> ● Using NodeJS, build production grade apps including REST APIs and GraphQL APIs</p>
+                            <p class="text-gray-500 text-sm mt-2"> ● Work with real life data and SpaceX API to build a NASA launch system, discover new planets that may contain life + other projects</p>
+                            <p class="text-gray-500 text-sm mt-2"> ● Authentication, File I/O, Databases (SQL, MongoDB), Express Framework, Sockets, plus many other important topics a backend developer should know</p>
+                            <p class="text-gray-500 text-sm mt-2"> ● Build a MERN (MongoDb, Express, React, Node) fullstack app and deploy to production</p>
+                            <p class="text-gray-500 text-sm mt-2"> ● Load balancing, Monitoring, CI/CD, and Zero Downtime Deployment</p>
+                            <p class="text-gray-500 text-sm mt-2"> ● Become the top 10% Node Developer. Learn REALLY advanced topics!</p>
+                            <p class="text-gray-500 text-sm mt-2"> ● Focus on security best practices throughout the course so you can be confident with your deployments</p>
+                            <p class="text-gray-500 text-sm mt-2"> ● Master the latest ecosystem of a Backend NodeJS Developer from scratch</p>
+
+                            <div class="mt-3 flex space-x-4">
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <span class="mr-2 text-xs">
+                                        <i class="far fa-user"></i>
+                                    </span>
+                                    Joesoft Ways
+                                </div>
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <span class="mr-2 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    June 09, 2023
+                                </div>
+                            </div>
+
+                    
+                        </div>
+                    </div>
+                </div>
+                <!-- Main Post ends here -->
+
+                <!-- Comments starts here -->
+                <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-5">
+                    <h4 class="text-base font-semibold mb-2">
+                        12 Comments
+                    </h4>
+
+                    <form action="" class="mt-4">
+                        <textarea name="comment" id="" cols="30" rows="1" 
+                        class="w-full border-b border-b-gray-400 text-sm
+                        p-2 rounded-sm mb-2
+                        focus:outline-none focus:border-b-gray-900" placeholder="Add a comment"></textarea>
+                        <div class="mb-2 flex justify-end">
+                            <button class="text-sm text-white bg-blue-500 py-1 px-2 border border-blue-500 rounded-xl 
+                            hover:text-blue-500 hover:bg-transparent transition">Submit</button>
+                        </div>
+                    </form>
+
+                    <div class="space-x-5">
+                        <div class="flex items-start border-b pb-5 border-gray-300">
+                            <div class="w-12 h-12 flex-shrink-0">
+                                <img src="./images/ariyan.jpg" class="w-full rounded-full" alt="user-image">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base">Solomon S.</h4>
+                                <p class="text-xs text-gray-500">A week ago.</p>
+                                <p class="text-sm font-600">
+                                    AWESOME! I love the way it was structured, the refresher courses for better understanding, the explanation was well detailed, and most importantly, the support I got from the instructors and from students on...
+                                </p>   
+                                <div class="flex gap-2 mt-2">
+                                    <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg
+                                     hover:bg-blue-500 hover:text-white">Reply</button>
+                                     <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg
+                                     hover:bg-red-500 hover:text-white">Delete</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="space-x-5">
+                        <div class="flex items-start border-b pb-4 pt-1 border-gray-300">
+                            <div class="w-12 h-12 flex-shrink-0">
+                                <img src="./images/ariyan.jpg" class="w-full rounded-full" alt="user-image">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base">Solomon S.</h4>
+                                <p class="text-xs text-gray-500">A week ago.</p>
+                                <p class="text-sm font-600">
+                                    AWESOME! I love the way it was structured, the refresher courses for better understanding, the explanation was well detailed, and most importantly, the support I got from the instructors and from students on...
+                                </p>   
+                                <div class="flex gap-2 mt-2">
+                                    <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg
+                                     hover:bg-blue-500 hover:text-white">Reply</button>
+                                     <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg
+                                     hover:bg-red-500 hover:text-white">Delete</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="space-x-5">
+                        <div class="flex items-start border-b pb-4 pt-1 border-gray-300">
+                            <div class="w-12 h-12 flex-shrink-0">
+                                <img src="./images/ariyan.jpg" class="w-full rounded-full" alt="user-image">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base">Solomon S.</h4>
+                                <p class="text-xs text-gray-500">A week ago.</p>
+                                <p class="text-sm font-600">
+                                    AWESOME! I love the way it was structured, the refresher courses for better understanding, the explanation was well detailed, and most importantly, the support I got from the instructors and from students on...
+                                </p>   
+                                <div class="flex gap-2 mt-2">
+                                    <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg
+                                     hover:bg-blue-500 hover:text-white">Reply</button>
+                                     <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg
+                                     hover:bg-red-500 hover:text-white">Delete</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="space-x-5">
+                        <div class="flex items-start border-b pb-4 pt-1 border-gray-300">
+                            <div class="w-12 h-12 flex-shrink-0">
+                                <img src="./images/ariyan.jpg" class="w-full rounded-full" alt="user-image">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base">Solomon S.</h4>
+                                <p class="text-xs text-gray-500">A week ago.</p>
+                                <p class="text-sm font-600">
+                                    AWESOME! I love the way it was structured, the refresher courses for better understanding, the explanation was well detailed, and most importantly, the support I got from the instructors and from students on...
+                                </p>   
+                                <div class="flex gap-2 mt-2">
+                                    <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg
+                                     hover:bg-blue-500 hover:text-white">Reply</button>
+                                     <button class="text-gray-500 px-2 py-1 text-xs border border-gray-200 rounded-lg shadow-lg
+                                     hover:bg-red-500 hover:text-white">Delete</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <!-- Comments ends here -->
+            
+            </div>
+
+            <div class="lg:w-3/12 w-full mt-8 lg:mt-0">
+                 <!-- Social plugins starts here -->
+                 <div class="bg-white rounded-xl shadow-sm p-4">
+                    <h3 class="text-xl font-semibold text-gray-700"> 
+                        Social Plugin
+                    </h3>  
+                    <div class="flex gap-2  mt-4">
+                        <a href="#" class="flex items-center justify-center w-8 h-8 border 
+                        border-gray-400 text-base text-gray-800 rounded-md">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="flex items-center justify-center w-8 h-8 border 
+                        border-gray-400 text-base text-gray-800 rounded-md">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="flex items-center justify-center w-8 h-8 border 
+                        border-gray-400 text-base text-gray-800 rounded-md">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="flex items-center justify-center w-8 h-8 border 
+                        border-gray-400 text-base text-gray-800 rounded-md">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                        <a href="#" class="flex items-center justify-center w-8 h-8 border 
+                        border-gray-400 text-base text-gray-800 rounded-md">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        
+                    </div>
+                 </div>
+                  <!-- Social plugins ends here -->
+
+                   <!-- Categories starts here -->
+                <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-6">
+                    <h3 class="text-xl font-semibold text-gray-700"> 
+                        Categories
+                    </h3>   
+                    <div class="text-gray-700 space-y-2 mt-4">
+                        <a href="#" class="flex items-center font-semibold leading-4 hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="fas fa-tags"></i>
+                            </span>
+                            <span>Beauty</span>
+                            <span class="font-normal ml-auto">(12)</span>
+                        </a>
+                        <a href="#" class="flex items-center font-semibold leading-4 hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="fas fa-tags"></i>
+                            </span>
+                            <span>Business</span>
+                            <span class="font-normal ml-auto">(9)</span>
+                        </a>
+                        <a href="#" class="flex items-center font-semibold leading-4 hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="fas fa-tags"></i>
+                            </span>
+                            <span>Fashion</span>
+                            <span class="font-normal ml-auto">(17)</span>
+                        </a>
+                        <a href="#" class="flex items-center font-semibold leading-4 hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="fas fa-tags"></i>
+                            </span>
+                            <span>Food</span>
+                            <span class="font-normal ml-auto">(3)</span>
+                        </a>
+                        <a href="#" class="flex items-center font-semibold leading-4 hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="fas fa-tags"></i>
+                            </span>
+                            <span>Music</span>
+                            <span class="font-normal ml-auto">(11)</span>
+                        </a>
+                        <a href="#" class="flex items-center font-semibold leading-4 hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="fas fa-tags"></i>
+                            </span>
+                            <span>News</span>
+                            <span class="font-normal ml-auto">(8)</span>
+                        </a>
+                        <a href="#" class="flex items-center font-semibold leading-4 hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="fas fa-tags"></i>
+                            </span>
+                            <span>People</span>
+                            <span class="font-normal ml-auto">(4)</span>
+                        </a>
+                        <a href="#" class="flex items-center font-semibold leading-4 hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="fas fa-tags"></i>
+                            </span>
+                            <span>Sports</span>
+                            <span class="font-normal ml-auto">(15)</span>
+                        </a>
+                        <a href="#" class="flex items-center font-semibold leading-4 hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="fas fa-tags"></i>
+                            </span>
+                            <span>Technology</span>
+                            <span class="font-normal ml-auto">(2)</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Categories ends here -->
+
+
+                   <!-- Popular Post ends here -->
+                    <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-6">
+                    <h3 class="text-xl font-semibold text-gray-700">
+                        Popular Posts
+                    </h3>
+                    <div class="mt-4">
+
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0">
+                                <img src="./images/pic1.png" class="h-14 w-20 rounded object-cover hover:brightness-200" alt="Random Post Banner">
+                            </div>
+                            <div class="flex-grow pl-2">
+                                <h5 class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500">
+                                    Man up today and Learn the MERN stack.
+                                </h5>
+
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    June 09, 2023
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0">
+                                <img src="./images/pic3.png" class="h-14 w-20 rounded object-cover hover:brightness-200" alt="Random Post Banner">
+                            </div>
+                            <div class="flex-grow pl-2">
+                                <h5 class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500">
+                                    You don't have to be mean to learn the MEAN stack.
+                                </h5>
+
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    June 09, 2023
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0">
+                                <img src="./images/pic5.png" class="h-14 w-20 rounded object-cover hover:brightness-200" alt="Random Post Banner">
+                            </div>
+                            <div class="flex-grow pl-2">
+                                <h5 class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500">
+                                    Laravel 10 for the maestro web artisans.
+                                </h5>
+
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    June 09, 2023
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+                   <!-- Popupar Post here -->
+
+                    <!-- Tags starts here -->
+                    <div class="w-full bg-white shadow-sm rounded-xl p-4 mt-4">
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4">
+                            Tags
+                        </h3>
+
+                        <div class="flex items-center flex-wrap gap-2">
+                            <a href="#" class="px-3 py-1 text-sm border border-gray-300 rounded-md transition hover:bg-blue-500 hover:text-white mb-2">
+                                NodeJs
+                            </a>
+                            <a href="#" class="px-3 py-1 text-sm border border-gray-300 rounded-md transition hover:bg-blue-500 hover:text-white mb-2">
+                                MERN
+                            </a>
+                            <a href="#" class="px-3 py-1 text-sm border border-gray-300 rounded-md transition hover:bg-blue-500 hover:text-white mb-2">
+                                MEAN
+                            </a>
+                            <a href="#" class="px-3 py-1 text-sm border border-gray-300 rounded-md transition hover:bg-blue-500 hover:text-white mb-2">
+                                Laravel
+                            </a>
+                            <a href="#" class="px-3 py-1 text-sm border border-gray-300 rounded-md transition hover:bg-blue-500 hover:text-white mb-2">
+                                Tailwind
+                            </a>
+                            <a href="#" class="px-3 py-1 text-sm border border-gray-300 rounded-md transition hover:bg-blue-500 hover:text-white mb-2">
+                                Blog
+                            </a>
+                            <a href="#" class="px-3 py-1 text-sm border border-gray-300 rounded-md transition hover:bg-blue-500 hover:text-white mb-2">
+                                Web app
+                            </a>
+                            <a href="#" class="px-3 py-1 text-sm border border-gray-300 rounded-md transition hover:bg-blue-500 hover:text-white mb-2">
+                                Technology
+                            </a>
+                            <a href="#" class="px-3 py-1 text-sm border border-gray-300 rounded-md transition hover:bg-blue-500 hover:text-white mb-2">
+                                Fanzone
+                            </a>
+                        </div>
+                    </div>
+                     <!-- Tags ends here -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-t py-4">
+        <p class="text-sm text-center">
+            <span> Developed with </span>
+            <a href="#" class="text-red-600 transition hover:text-red-900 font-bold"><i class="fas fa-heart"></i></a>
+            <span> by</span> 
+            <a href="#" class="text-gray-700 transition hover:text-blue-500 font-bold">Joesoft</a>&nbsp;
+            <span>Copyright &copy; 2023. All rights reserved.</span>
+        </p>
+    </footer>
+</body>
+</html>
