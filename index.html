@@ -15,11 +15,11 @@
     <!-- Header starts here -->
     <nav class="bg-slate-300 shadow-sm shadow-slate-300">
         <div class="container mx-auto px-4 py-3 flex items-center">
-             <a href="#">
+             <a href="/">
                 <img src="./images/easyshop.png" alt="Company Logo">
              </a>
              <div class="ml-12 lg:flex space-x-4 hidden">
-                <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                <a href="/" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
                     <span class="mr-2">
                         <i class="fas fa-home"></i>
                     </span>
@@ -55,7 +55,7 @@
                     <spam class="mr-2">
                         <i class="far fa-user"></i>
                     </span>
-                    Login/Register
+                    Login
                 </a>
              </div>
              <div id="open_sidebar" class="text-xl text-gray-700 cursor-pointer ml-4 lg:hidden block hover:text-blue-700 transition">
@@ -545,7 +545,7 @@
             <span> Developed with </span>
             <a href="#" class="text-red-600 transition hover:text-red-900 font-bold"><i class="fas fa-heart"></i></a>
             <span> by</span> 
-            <a href="#" class="text-gray-700 transition hover:text-blue-500 font-bold">Joesoft</a>&nbsp;
+            <a href="https://github.com/joesoftmwai" target="_blank" class="text-gray-700 transition hover:text-blue-500 font-bold">Joesoft</a>&nbsp;
             <span>Copyright &copy; 2023. All rights reserved.</span>
         </p>
     </footer>
@@ -570,7 +570,7 @@
                 </h3>
 
                 <div class="px-4 py-1 text-gray-700">
-                    <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <a href="/" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
                         <span class="mr-2">
                             <i class="fas fa-home"></i>
                         </span>
@@ -669,22 +669,7 @@
         </div>
     <!-- Mobile menu ends here -->
 
-    <script>
-        document.querySelector('#open_sidebar').addEventListener('click', function() {
-            document.querySelector('#sidebar').classList.remove('-left-80')
-            document.querySelector('#sidebar').classList.add('left-0')
-            document.querySelector('#sidebar_wrapper').classList.remove('opacity-0')
-            document.querySelector('#sidebar_wrapper').classList.remove('invisible')
-        })
-
-        document.body.addEventListener('click', function(e) {
-            if (e.target.id === 'sidebar_wrapper') {
-                document.querySelector('#sidebar').classList.add('-left-80')
-                document.querySelector('#sidebar').classList.remove('left-0')
-                document.querySelector('#sidebar_wrapper').classList.add('opacity-0')
-                document.querySelector('#sidebar_wrapper').classList.add('invisible')
-            }
-        })
-    </script>
+    <script src="./src/js/main.js"></script>
+  
 </body>
 </html>
